@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Pixel;
+    src: url("/static/VCR_OSD_MONO_1.001.ttf");
+}
+
+body {
+    font: 400 18px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    color: #111;
+  }
+  .container {
+    padding: 80px 80px;
+  }
+
+   .filler {
+    padding: 40px 120px;
+  }
+
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
+  .bg-1 h2 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 12px;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .nav-tabs li a {
+    color: #777;
+  }
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+
+  .jumbotron {
+  background-image: url("/static/beach.jpg");
+  background-size: cover;
+  background-repeat: "no-repeat";
+  color: white;
+  font-family: Pixel, sans-serif;
+  margin: 0px;
+}
+
+.jumbotron h2, .jumbotron p{
+background-color: #2d2d30;
+color: white;
+display: flex;
+}
+
+.jumbotron .btn {
+background-color: #2d2d30;
+color: white;
+border-radius: 0px;
+font-size: 32px;
+}
+
+.intro {
+align-items: center;
+}
+
+.intro p{
+display: inline;
+font-size: 58px;
+}
+
+.flex-intro .p2{
+font-size: 38px;
+}
+
+.mt-5 {
+padding: 10px 0px;
+}
+
+.mt-5 h3 {
+font-size: 24px;
+}
+
+
+.project-card {
+display: flex;
+padding: 20px;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 20px;
+
+border: solid;
+border-width: 2px;
+border-color: grey;
+}
+
+.reverse {
+flex-direction: row-reverse;
+}
+
+.proj-desc {
+width: 300px;
+background-color: rgb(45,45,45,0.5);
+color: white;
+z-index: 3;
+padding: 10px;
+}
+
+.proj-desc p:first-child {
+font-weight: bold;
+font-size: 2em;
+
+}
+
+.proj-desc .button {
+background-color: transparent;
+border: solid;
+border-color: white;
+border-radius: 0;
+border-width: 5px;
+letter-spacing: 2px;
+color: white;
+font-size: 2vm;
+}
+
+.proj-desc .button:hover {
+background-color: white;
+color: black;
+
+}
+
+.image{
+max-width: 100%;
+height: auto;
+}
+
+
+/*Screen Responsiveness*/
+@media screen and (max-width: 621px) {
+
+.container{
+padding: 40px 40px;
+}
+
+  .jumbotron .btn {
+    font-size: 24px;
+  }
+
+  .intro p{
+font-size: 32px;
+}
+
+.intro .p2{
+font-size: 28px;
+}
+
+.project-card {
+max-width: 100%;
+justify-content: center;
+}
+
+.proj-desc {
+text-align: center;
+font-size: 1.5rem;
+}
+
+.proj-desc p:first-child {
+font-size: 2rem;
+}
+
+.proj-desc .button {
+font-size: 12px;
+}
+
+
+}
+
